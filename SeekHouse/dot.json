@@ -1,0 +1,25 @@
+{
+  "sy_list": [
+    {
+      "img_url": "./image/SecondHandList/img1.png",
+      "title": "西便门外大街2室1厅89平",
+      "jieshao": "南北 高楼层/6层",
+      "jiage": ["1324","1105万"],
+      "time": "2015年11月10日"
+    },
+    {
+      "img_url": "./image/SecondHandList/img2.png",
+      "title": "金桥国际 1室1厅 63平",
+      "jieshao": "南北 高楼层/6层",
+      "jiage": ["13244","905万"],
+      "time": "2015年11月10日"
+    },
+    {
+      "img_url": "./image/SecondHandList/img3.png",
+      "title": "花涧溪二期 2室2厅 90平",
+      "jieshao": "南北 高楼层/6层",
+      "jiage": ["13244","1322万"],
+      "time": "2015年11月10日"
+    }
+  ]
+}

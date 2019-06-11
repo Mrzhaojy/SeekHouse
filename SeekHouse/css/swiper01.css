@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 100px;
+}
+.head {
+    height: 0.42rem;
+    background: #ff8a00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head h1 {
+    font-size: 0;
+}
+
+.head h1 img {
+    width: 1rem;
+    height: 0.34rem;
+}
+.head .icon {
+    font-size: 0;
+}
+.head .icon img {
+    width: 0.23rem;
+    height: 0.29rem;
+    margin-left: 0.2rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 1.85rem;
+}
+.swiper-container img{
+    height: 100%;
+    width:100% ;
+}
+ .text{
+    padding: 0.2rem;
+}
+.text h2{
+    font-size: 0.18rem;
+    line-height: 0.24rem;
+}
+.text p:first-of-type{
+    font-size: 0.14rem;
+    color: #000;
+    margin: 0.1rem 0;
+}
+.text p span:nth-child(2){
+    position: absolute;
+    left: 2.9rem;
+}
+.gptime{
+    font-size: 0.16rem;
+    color:gray;
+    position: relative;
+}
+ul{
+    list-style: none;
+
+}
+.text ul li{
+    background: lightblue;
+    /*margin-right: 0.14rem;*/
+    padding: 0.1rem;
+    margin: 0.3rem 0.1rem;
+    font-size: 0.14rem;
+    float: left;
+}
+.blank{
+    height: .1rem;
+    width: 100%;
+    background-color: #e6ee9c;
+}
+.characteristic1{
+    background: #fff;
+    border-top: .15rem solid gainsboro;
+    border-bottom:.15rem solid gainsboro;
+    margin-top: 0.8rem;
+    padding:0 0.3rem;
+}
+.characteristic1 ul li{
+    font-size: 0.14rem;
+    clear: both;
+    height: 0.4rem;
+    line-height: 0.5rem;
+    border-bottom: 1px solid black;
+}
+.characteristic1 ul li:last-of-type{
+    color: gray;
+    text-align: center;
+    border: none;
+}
+.characteristic2>h2{
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+    color: orange;
+    border-bottom: 1px solid gray;
+}
+.characteristic2 p:first-of-type{
+    line-height: 0.24rem;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    padding: 0.14rem 0;
+    font-size: 0.14rem;
+}
+.characteristic2 p:last-of-type{
+    line-height: 0.5rem;
+    color: gray;
+    text-align: center;
+    font-size: 0.14rem;
+
+}
+.characteristic3{
+    background: #fff;
+    border-top: .15rem solid gainsboro;
+    border-bottom:.15rem solid gainsboro;
+ /*   margin-top: 0.1rem;*/
+    padding:0  0.1rem;
+}
+.characteristic3>h2{
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    color: orange;
+    border-bottom: 1px solid gray;
+}
+.characteristic3 li{
+    line-height: 0.1rem;
+    border-bottom: 1px solid orange;
+    overflow: hidden;
+}
+.characteristic3 li:last-of-type{
+    border-bottom: none;
+}
+.characteristic3 li .left{
+    float: left;
+}
+.characteristic3 li .right{
+    float: left;
+    margin-left: 0.1rem;
+}
+.characteristic3 .left img{
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-top: 0.24rem;
+}
+.characteristic3 li .right h2{
+    font-size: 0.14rem;
+    margin-top: 0.3rem;
+
+
+}
+.characteristic3 li .right p:first-of-type{
+    white-space: nowrap;
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    line-height: 0.2rem;
+    font-size: 0.14rem;
+    margin-top: 0.1rem;
+
+}
+.characteristic3 li .right p:last-of-type span{
+    font-size: 0.2rem;
+    padding: 0.05rem;
+    color: gray;
+    background: lightblue;
+    margin-right: 0.06rem;
+    display: inline-block;
+    font-size: 0.14rem;
+    margin-bottom: 0.1rem;
+    position: relative;top: -0.23rem;
+}
+.characteristic4{
+    background: #fff;
+    border-bottom:.15rem solid gainsboro;
+    margin-top: 0.1rem;
+    padding:0 0.3rem;
+}
+.characteristic4 ul li{
+    font-size: 0.14rem;
+    clear: both;
+    height: 0.4rem;
+    line-height: 0.5rem;
+    border-bottom: 1px solid black;
+}
+.characteristic4 ul li:last-of-type{
+    color: gray;
+    text-align: center;
+    border: none;
+}
+.characteristic4>h2{
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+.characteristic4 ul li span:first-of-type{
+    color: gainsboro;
+}
+.map>h2{
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+#allmap{
+    width: 100%;
+    height: 2.5rem;
+   /* margin: 0.2rem 0.2rem 0.2rem 0.2rem;*/
+}
+.map{
+    border-bottom:.15rem solid gainsboro;
+}
+
+.houseList {
+    margin: 0 0.2rem;
+}
+
+.houseList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid black;
+}
+.houseList li:last-of-type{
+    border-bottom:none;
+}
+.houseList li .img img{
+    width: 0.81rem;
+    height: 0.81rem;
+}
+
+.houseList li .text h3{
+    font-size: 0.18rem;
+    width: 1.87rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.houseList li .text p{
+    font-size: 0.12rem;
+    padding: 0.05rem 0;
+    color: #000;
+    overflow: hidden;
+}
+.houseList li .text p:nth-of-type(2){
+    color: #8b8b8b;
+}
+.houseList li .text strong{
+    color: #ff8a00;
+    float: right;
+    position: relative;
+    left: -0.5rem;
+}
+.houseList li .text p:nth-of-type(2) span{
+    color: #999999;
+    float: right;
+}
+.houseList li .text p a{
+    color: #849aae;
+    background: #f4f7f9;
+    padding: 0.02rem 0.04rem;
+}
+.characteristic5>h2{
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+.bk{
+    width: 2.8rem;
+    height: 0.2rem;
+    border: 0.01rem solid black;
+    font-size: 0.16rem;
+    color: gray;
+    background-color: lightgray;
+    text-align: center;
+    position: relative;
+    right: 0.8rem;
+    top: 0.2rem;
+    border-radius: 8px;
+}
+.money{
+    position: relative;
+    right: 0.3rem;
+}
+/*.characteristic5{
+    border-bottom:.15rem solid gainsboro;
+}*/
+.bottom{
+    font-size: 0.16rem;
+    text-align: center;
+    color: #8b8b8b;
+    border-top: 0.01rem solid black;
+
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.copyright{
+    background: #2f3130;
+    color: #939494;
+    padding: 0 0.15rem;
+}
+.copyright h2{
+    font-size: 0.14rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border-bottom: 1px solid #3e403f;
+}
+.copyright .content{
+    padding: 0.15rem 0;
+}
+.copyright ul{
+    display: flex;
+}
+.copyright li{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+}
+.copyright li img{
+    width: 0.18rem;
+    height: 0.21rem;
+    margin-right: 0.16rem;
+    margin-left: 0.1rem;
+}
+.copyright .text{
+    margin-top: 0.16rem;
+}
+.copyright p{
+    font-size: 0.12rem;
+}
+.copyright .text p{
+    line-height: 0.18rem;
+    text-align: center;
+
+}
